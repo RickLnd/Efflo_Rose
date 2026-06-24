@@ -32,6 +32,7 @@ body{display:flex;align-items:center;justify-content:center;background:#0c1416;f
 .cuewrap{flex:1;display:flex;align-items:center;justify-content:center;padding:0 22px}
 .stage{flex:1.7;position:relative;display:flex;align-items:center;justify-content:center;overflow:visible}
 .gbox{width:min(86vw,330px,34dvh);height:min(86vw,330px,34dvh);display:flex;align-items:center;justify-content:center;transform:translateY(calc(-10% - 10.4dvh + 50.6px)) scale(1.2)}
+@media (max-height:720px){.gbox{transform:translateY(calc(-10% - 10.4dvh)) scale(1.2)}}
 .swipe{flex:0 0 auto;display:flex;gap:7px;justify-content:center;padding:6px 0 14px}
 .swipe i{height:4px;width:18px;border-radius:3px;background:var(--mut);opacity:.5}.swipe i.on{width:26px;opacity:1;background:var(--acc)}
 .menu{flex:0 0 auto;height:88px;margin-bottom:env(safe-area-inset-bottom);display:flex;align-items:center;justify-content:space-evenly;padding:0 max(14px,env(safe-area-inset-right)) 0 max(14px,env(safe-area-inset-left));position:relative;z-index:3;background:rgba(255,255,255,.06)}
